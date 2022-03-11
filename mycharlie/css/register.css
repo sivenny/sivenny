@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    display: block;
+    font-weight: 400;
+    font-family: 'Microsoft YaHei';
+
+    width: 160px;   
+    height: 80px;
+    line-height: 80px;
+    margin: 30px auto;
+
+}
+
+
+#gst {
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+    margin: 10% auto;
+    background-color: pink;
+}
+#gst div {
+    
+    border-bottom: 1px solid #b4b4b4;
+    margin: 20px 40px ;
+}
+#gst input{
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+   
+    margin:0 20px 0 0 ;
+    
+}
+#userId {
+    margin-bottom: 20px;
+}
+div #cgps {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-color: black;
+
+}

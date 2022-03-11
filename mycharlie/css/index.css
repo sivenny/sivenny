@@ -1,0 +1,244 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    position: relative;
+    
+    font-family: '宋体' , 'Microsoft YaHei';
+    background-color: rgb(213,220,222);
+    
+    background:#f2f2f2 no-repeat  top url(../images/5.jpg) ;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+input::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+em {
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.w {
+    width: 1140px;
+    margin: auto;
+    
+    
+}
+
+.nav {
+    position:sticky;
+    top:0;
+    z-index: 101;
+    height: 90px;
+    border-top: 3px solid black;
+    background-color: rgb(78,54,98);
+    line-height: 90px;
+    font-size: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3) ;
+}
+.nav ul li {
+    display: inline-block;
+    float: left;  
+    height:90px;
+    margin-right: 50px ;
+    color: aliceblue;
+   
+}
+.nav ul li #csymbol {
+    width:92px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.nav ul li a{
+    color: aliceblue;
+    text-shadow: 0 4px  4px rgba(0, 0, 0, 0.6);
+}
+.nav ul li a:hover {
+    color: wheat;
+}
+.nav .w div {
+    float: left;
+
+}
+ .ssh {
+    margin-left: 80px;
+    float: left;
+    margin-top: 24px;
+}
+div .ssh .search{
+    display: inline-block;
+    float: left;
+    width: 320px;
+    height: 46px;
+    text-indent:12px;
+    background-color: rgb(251,252,249);
+    border: 1px solid rgb(138,128,169);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+ #ss {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    float: left;
+    border: 0;
+    width: 46px;
+    height: 46px;
+    background-color: rgb(141,131,170);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#ss:hover{
+    cursor:pointer;
+    background-color: rgba(141,131,170,0.8);
+}
+ #selfie img{
+    display: block;
+    width:50px;
+    height: 50px;
+   border: 1px solid black;
+    border-radius: 25px;  
+    margin-top: 20px;
+    margin-left:30px; 
+    margin-right: 10px; 
+}
+#selfie a:hover{
+    
+}
+  #username {
+      
+    display: block;
+    width: 80px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+ article{
+     position: relative;
+ }
+ article #kv-bg {
+     position: relative;
+     width: 100%;
+     height: 560px;  
+     background:url(../images//kv-bg2.png);
+     
+    
+ }
+
+ #kv-bg .lb1 img {
+     position: absolute;
+     top: 160px;
+     left: 140px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+     width: 216px;
+    
+ }
+ #kv-bg .lb2 img {
+    position: absolute;
+    top:20px;
+    left: 50%;
+    margin-left:-160px ;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    width: 320px;
+ }
+ #kv-bg .lb3 img {
+    position: absolute;
+    
+    top: 160px;
+    right:  140px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    width: 216px;
+    
+}
+
+
+#duilian1 {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin-top: 90px;
+    width:100px;
+    height: 10px;
+    animation: opdl 1s 300ms ease-out forwards;
+   z-index: 99;
+}
+@keyframes opdl {
+    from {height: 10px;}
+    to {height: 600px;}
+}
+
+#duilian2  {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 10px;
+    margin-top: 90px;
+    animation: opd2 1s 300ms ease-out forwards;
+ z-index: 99;
+}
+@keyframes opd2 {
+    from {height: 10px;}
+    to {height: 600px;}
+}
+span  img{
+    
+    width: 100px;
+    
+}
+article .apr {
+    height: 670px;
+ 
+    margin-top: 30px;
+}
+
+#zlsxx {
+    position: absolute;
+    z-index: 100;
+    top: 270px;
+    left: 560px;
+
+
+}
+#zlsxx img {
+    position: absolute;
+    width: 150px;
+}
+ #zlsxx:hover{
+     cursor: pointer;
+ }
+ .chbnt ul li{
+     position: absolute;
+     bottom: 3px;
+     left: 50%;
+ }
+footer {    
+     position:relative;
+     z-index: 98;
+     height:362px ;
+     background-color: pink;
+     margin-top: 80px;
+     padding-top: 30px;
+ }
+ footer #foottop {
+     height: 80px;
+     background-color: green;
+ }

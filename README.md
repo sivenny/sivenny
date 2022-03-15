@@ -1,5 +1,5 @@
 hello world!
-my creating a github account for my self-study;
+my creating a github account is used for my self-study;
 if you find any mistakes in my codes,feel free to point them out;
 
 
